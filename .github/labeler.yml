@@ -1,0 +1,23 @@
+# Add source | advanced adversaries label if all or advanced adversaries is selected in issue template
+source | advanced adversaries:
+  - '/(?<=### Relevant Module\(s\)[\n\r]*^.*)(All|Advanced Adversaries)[^\n\r]*$/gmi'
+
+# Add source | handbook label if all or handbook is selected in issue template
+source | handbook:
+  - '/(?<=### Relevant Module\(s\)[\n\r]*^.*)(All|Handbook)[^\n\r]*$/gmi'
+
+# Add source | speak the words label if all or speak the words is selected in issue template
+source | speak the words:
+  - '/(?<=### Relevant Module\(s\)[\n\r]*^.*)(All|Speak the Words)[^\n\r]*$/gmi'
+
+# Add source | stonewalkers label if all or stonewalkers is selected in issue template
+source | stonewalkers:
+  - '/(?<=### Relevant Module\(s\)[\n\r]*^.*)(All|Stonewalkers)[^\n\r]*$/gmi'
+
+# Add source | stormlight scenarios label if all or stormlight scenarios is selected in issue template
+source | stormlight scenarios:
+  - '/(?<=### Relevant Module\(s\)[\n\r]*^.*)(All|Stormlight Scenarios)[^\n\r]*$/gmi'
+
+# Add source | worldguide label if all or worldguide is selected in issue template
+source | worldguide:
+  - '/(?<=### Relevant Module\(s\)[\n\r]*^.*)(All|World Guide)[^\n\r]*$/gmi'
