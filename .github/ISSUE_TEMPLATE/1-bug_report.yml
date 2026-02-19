@@ -1,0 +1,79 @@
+name: Bug Report
+description: Please use this form to report any bugs you encounter as they pertain to the premium Stormlight modules.
+labels: type | bug
+body:
+- type: checkboxes
+  id: existing-issue
+  attributes:
+    label: Is there an existing issue for this?
+    description: Please search to see if an issue already exists for the bug you encountered.
+    options:
+    - label: I have searched the existing issues to ensure this bug has not already been reported
+      required: true
+- type: dropdown
+  id: modules-list
+  attributes:
+    label: Relevant Module(s)
+    description: "Which Stormlight modules are relevant to this bug report? (Note: you may select more than one)"
+    multiple: true
+    default: 2
+    options:
+      - All
+      - Advanced Adversaries
+      - Handbook
+      - Speak the Words
+      - Stonewalkers
+      - Stormlight Scenarios
+      - World Guide
+  validations:
+    required: true
+- type: textarea
+  id: bug-description
+  attributes:
+    label: Describe the bug
+    description: A clear and concise description of what the bug is.
+  validations:
+    required: true
+- type: textarea
+  id: expected-behavior
+  attributes:
+    label: Expected Behavior
+    description: A clear and concise description of what you expected to happen.
+  validations:
+    required: false
+- type: textarea
+  id: reproduction-steps
+  attributes:
+    label: Steps To Reproduce
+    description: Steps to reproduce the behavior.
+    placeholder: |
+      1. Go to '...'
+      1. Click on '...'
+      1. Scroll down to '...'
+      1. See error
+  validations:
+    required: false
+- type: textarea
+  id: environment-info
+  attributes:
+    label: Environment & Version Info
+    description: Please fill out each field on the table, adding a new row for each Stormlight module this report applies to by copy-pasting the system row.
+    value: |
+      |**Name**|**Version**|
+      |---|---|
+      |**OS**|_ex. Windows 10, Ubuntu 20.04, etc_|
+      |**Browser**|_Chrome, Firefox, etc_|
+      |**Foundry**|_ex. 13.346_|
+      |**System**|_ex. 2.0.4_|
+  validations:
+    required: false
+- type: textarea
+  id: extra-context
+  attributes:
+    label: Screenshots and Additional Context
+    description: |
+      Add screenshots and any other context about the problem here. Logs, list of loaded modules, etc.
+
+      Tip: You can attach images or log files by clicking this area to highlight it and then dragging files in.
+  validations:
+    required: false
