@@ -53,17 +53,61 @@ body:
       1. See error
   validations:
     required: false
-- type: textarea
-  id: environment-info
+- type: dropdown
+  id: operating-system
   attributes:
-    label: Environment & Version Info
-    description: Please fill out each field on the table, adding a new row for each Stormlight module this report applies to by copy-pasting the system row.
+    label: Operating System
+    description: "Which operating system are you using? *Note: if yours isn't listed, select 'Other' and provide details at the bottom of the form.*"
+    multiple: false
+    default: 0
+    options:
+      - Windows 10
+      - Windows 11
+      - MacOS
+      - Ubuntu
+      - Debian
+      - Other
+  validations:
+    required: true
+- type: dropdown
+  id: web-browser
+  attributes:
+    label: Web Browser(s)
+    description: "Which web browser(s) are you using to connect to foundry? *Note: if yours isn't listed, select 'Other' and provide details at the bottom of the form."
+    multiple: true
+    default: 0
+    options:
+      - Foundry Executable
+      - Chrome
+      - Firefox
+      - Safari
+      - Opera
+      - Edge
+      - Other
+  validations:
+    required: true
+- type: dropdown
+  id: host-method
+  attributes:
+    label: Hosting Method
+    description: "How are you hosting the foundry instance?"
+    multiple: false
+    default: 0
+    options:
+      - Localhost/same PC
+      - Dedicated server/vps
+      - The Forge
+      - Other
+  validations:
+    required: true
+- type: textarea
+  id: version-info
+  attributes:
+    label: Version Info
+    description: Please fill out the version field on the table, adding a new row for each Stormlight module this report applies to by copy-pasting the system row and filling in the info for each.
     value: |
       |**Name**|**Version**|
       |---|---|
-      |**OS**|_ex. Windows 10, Ubuntu 20.04, etc_|
-      |**Browser**|_Chrome, Firefox, etc_|
-      |**Foundry**|_ex. 13.346_|
       |**System**|_ex. 2.0.4_|
   validations:
     required: false
