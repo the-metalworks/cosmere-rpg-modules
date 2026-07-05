@@ -100,17 +100,22 @@ body:
       - Other
   validations:
     required: true
-- type: textarea
-  id: version-info
+- type: input
+  id: foundry-version
   attributes:
-    label: Version Info
-    description: Please fill out the version field on the table, adding a new row for each Stormlight module this report applies to by copy-pasting the system row and filling in the info for each.
-    value: |
-      |**Name**|**Version**|
-      |---|---|
-      |**System**|_ex. 2.0.4_|
+    label: Version Info - Foundry VTT
+    description: Please indicate the Foundry VTT version you are using (including build).
+    placeholder: ex. 13.351
   validations:
-    required: false
+    required: true
+- type: input
+  id: cosmere-version
+  attributes:
+    label: Version Info - Cosmere RPG
+    description: Please indicate the system release version you are using, along with the title+version of each module related to the report.
+    placeholder: ex. Cosmere RPG 2.0.1, Stormlight Handbook 2.1.0, Stormlight Worldguide 2.0.0
+  validations:
+    required: true
 - type: textarea
   id: extra-context
   attributes:
