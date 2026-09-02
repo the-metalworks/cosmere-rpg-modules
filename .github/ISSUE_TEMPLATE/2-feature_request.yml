@@ -16,7 +16,7 @@ body:
     label: Relevant Module(s)
     description: "Which Stormlight modules are relevant to this feature request? (Note: you may select more than one)"
     multiple: true
-    default: 0
+    default: 1
     options:
       - All
       - Mistborn Handbook
