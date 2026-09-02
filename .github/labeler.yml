@@ -1,10 +1,10 @@
-# Add source | advanced adversaries label if all or advanced adversaries is selected in issue template
-source | advanced adversaries:
-  - '/(?<=### Relevant Module\(s\)[\n\r]*^.*)(All|Advanced Adversaries)[^\n\r]*$/gmi'
+# Add source | stormlight advanced adversaries label if all or stormlight advanced adversaries is selected in issue template
+source | stormlight advanced adversaries:
+  - '/(?<=### Relevant Module\(s\)[\n\r]*^.*)(All|Stormlight Advanced Adversaries)[^\n\r]*$/gmi'
 
-# Add source | handbook label if all or handbook is selected in issue template
-source | handbook:
-  - '/(?<=### Relevant Module\(s\)[\n\r]*^.*)(All|Handbook)[^\n\r]*$/gmi'
+# Add source | stormlight handbook label if all or stormlight handbook is selected in issue template
+source | stormlight handbook:
+  - '/(?<=### Relevant Module\(s\)[\n\r]*^.*)(All|Stormlight Handbook)[^\n\r]*$/gmi'
 
 # Add source | speak the words label if all or speak the words is selected in issue template
 source | speak the words:
@@ -18,6 +18,18 @@ source | stonewalkers:
 source | stormlight scenarios:
   - '/(?<=### Relevant Module\(s\)[\n\r]*^.*)(All|Stormlight Scenarios)[^\n\r]*$/gmi'
 
-# Add source | worldguide label if all or worldguide is selected in issue template
-source | worldguide:
-  - '/(?<=### Relevant Module\(s\)[\n\r]*^.*)(All|World Guide)[^\n\r]*$/gmi'
+# Add source | stormlight worldguide label if all or stormlight worldguide is selected in issue template
+source | stormlight worldguide:
+  - '/(?<=### Relevant Module\(s\)[\n\r]*^.*)(All|Stormlight World Guide)[^\n\r]*$/gmi'
+
+# Add source | mistborn handbook label if all or mistborn handbook is selected in issue template
+source | mistborn handbook:
+  - '/(?<=### Relevant Module\(s\)[\n\r]*^.*)(All|Mistborn Handbook)[^\n\r]*$/gmi'
+
+# Add source | mistborn worldguide label if all or mistborn worldguide is selected in issue template
+source | mistborn worldguide:
+  - '/(?<=### Relevant Module\(s\)[\n\r]*^.*)(All|Mistborn World Guide)[^\n\r]*$/gmi'
+
+# Add source | legacy label if all or legacy is selected in issue template
+source | legacy:
+  - '/(?<=### Relevant Module\(s\)[\n\r]*^.*)(All|Legacy)[^\n\r]*$/gmi'
