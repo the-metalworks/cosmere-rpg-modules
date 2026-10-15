@@ -1,10 +1,22 @@
-# Add source | stormlight advanced adversaries label if all or stormlight advanced adversaries is selected in issue template
-source | stormlight advanced adversaries:
-  - '/(?<=### Relevant Module\(s\)[\n\r]*^.*)(All|Stormlight Advanced Adversaries)[^\n\r]*$/gmi'
+# Add source | legacy label if all or legacy is selected in issue template
+source | legacy:
+  - '/(?<=### Relevant Module\(s\)[\n\r]*^.*)(All|Legacy)[^\n\r]*$/gmi'
 
 # Add source | stormlight handbook label if all or stormlight handbook is selected in issue template
-source | stormlight handbook:
-  - '/(?<=### Relevant Module\(s\)[\n\r]*^.*)(All|Stormlight Handbook)[^\n\r]*$/gmi'
+source | metallic dice:
+  - '/(?<=### Relevant Module\(s\)[\n\r]*^.*)(All|Metallic Dice)[^\n\r]*$/gmi'
+
+# Add source | mistborn handbook label if all or mistborn handbook is selected in issue template
+source | mistborn handbook:
+  - '/(?<=### Relevant Module\(s\)[\n\r]*^.*)(All|Mistborn Handbook)[^\n\r]*$/gmi'
+
+# Add source | mistborn scenarios label if all or mistborn scenarios is selected in issue template
+source | mistborn scenarios:
+  - '/(?<=### Relevant Module\(s\)[\n\r]*^.*)(All|Mistborn Scenarios)[^\n\r]*$/gmi'
+
+# Add source | mistborn worldguide label if all or mistborn worldguide is selected in issue template
+source | mistborn world guide:
+  - '/(?<=### Relevant Module\(s\)[\n\r]*^.*)(All|Mistborn World Guide)[^\n\r]*$/gmi'
 
 # Add source | speak the words label if all or speak the words is selected in issue template
 source | speak the words:
@@ -13,23 +25,19 @@ source | speak the words:
 # Add source | stonewalkers label if all or stonewalkers is selected in issue template
 source | stonewalkers:
   - '/(?<=### Relevant Module\(s\)[\n\r]*^.*)(All|Stonewalkers)[^\n\r]*$/gmi'
+  
+  # Add source | stormlight advanced adversaries label if all or stormlight advanced adversaries is selected in issue template
+source | stormlight advanced adversaries:
+  - '/(?<=### Relevant Module\(s\)[\n\r]*^.*)(All|Stormlight Advanced Adversaries)[^\n\r]*$/gmi'
+
+# Add source | stormlight handbook label if all or stormlight handbook is selected in issue template
+source | stormlight handbook:
+  - '/(?<=### Relevant Module\(s\)[\n\r]*^.*)(All|Stormlight Handbook)[^\n\r]*$/gmi'
 
 # Add source | stormlight scenarios label if all or stormlight scenarios is selected in issue template
 source | stormlight scenarios:
   - '/(?<=### Relevant Module\(s\)[\n\r]*^.*)(All|Stormlight Scenarios)[^\n\r]*$/gmi'
 
 # Add source | stormlight worldguide label if all or stormlight worldguide is selected in issue template
-source | stormlight worldguide:
+source | stormlight world guide:
   - '/(?<=### Relevant Module\(s\)[\n\r]*^.*)(All|Stormlight World Guide)[^\n\r]*$/gmi'
-
-# Add source | mistborn handbook label if all or mistborn handbook is selected in issue template
-source | mistborn handbook:
-  - '/(?<=### Relevant Module\(s\)[\n\r]*^.*)(All|Mistborn Handbook)[^\n\r]*$/gmi'
-
-# Add source | mistborn worldguide label if all or mistborn worldguide is selected in issue template
-source | mistborn worldguide:
-  - '/(?<=### Relevant Module\(s\)[\n\r]*^.*)(All|Mistborn World Guide)[^\n\r]*$/gmi'
-
-# Add source | legacy label if all or legacy is selected in issue template
-source | legacy:
-  - '/(?<=### Relevant Module\(s\)[\n\r]*^.*)(All|Legacy)[^\n\r]*$/gmi'
