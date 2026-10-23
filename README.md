@@ -21,7 +21,7 @@ Mistborn|Legacy|A full-campaign adventure that spans both era 1 **and** era 2 of
 ### Supplemental Content
 |Name|Description|Link(s)|
 |---|---|---|
-Stormlight Advanced Adversaries|Placeholder|[Foundry Marketplace](https://www.foundryvtt.store/products/cosmere-rpg-stormlight-advanced-adversaries)
+Stormlight Advanced Adversaries|Adds additional adversaries for tier 2 and variants of several Fused. Also includes Surgebinding modules for customizing existing adversaries with Surges, as well as a very, very nice sword.|[Foundry Marketplace](https://www.foundryvtt.store/products/cosmere-rpg-stormlight-advanced-adversaries)
 Stormlight Scenarios|Seven short adventures across tiers 1 to 3. Each scenario takes only a few hours to play, perfect for a one-shot or to drop into an ongoing campaign.|[Foundry Marketplace](https://www.foundryvtt.store/products/cosmere-rpg-stormlight-scenarios)
 Mistborn Scenarios|Six short adventures that range from comedic investigation to terrifying survival against the odds. There is an adventure for era 1 and era 2 in each tier of play from 1 to 3.|[Foundry Marketplace](https://www.foundryvtt.store/products/cosmere-rpg-mistborn-scenarios)
 Mistborn Metallic Dice|Eight sets of custom dice skins for use with the Dice So Nice! module. Each set is a different metal and contains skins for d2–d20, d100, fudge die, and plot die!|[Foundry Marketplace](https://www.foundryvtt.store/products/cosmere-rpg-mistborn-dice)
