@@ -1,6 +1,7 @@
 # Cosmere RPG Foundry VTT Modules Issue and Features
 A place to report and track bugs, feature requests, etc. for the released modules of the Cosmere RPG Foundry VTT implementation.
 ## **Supported Products**
+The follow sections and tables provide a list of Cosmere RPG products which currently have a module implementation.
 ### Rulebooks
 Name | Description | Type | Link(s)
 -- | -- | -- | --
@@ -15,4 +16,4 @@ Stormlight | Stonewalkers | A full-campaign adventure that shows off many locati
 Stormlight | The First Step | A 'level 0' adventure where players begin with blank character sheets. Players gain paths, talents, skills, and expertises through choices made. Ties neatly into Stonewalkers if desired. | 0–1 | [Foundry Marketplace](https://www.foundryvtt.store/products/cosmere-rpg-stormlight-first-step)
 Stormlight | Speak the Words | When Odium's forces besiege the city of Karanak, a group of heroes face a life-or-death decision. Whether they choose protection or liberation, at least one hero will have a chance to swear the First Ideal and become Radiant. | 3 | [Foundry Marketplace](https://www.foundryvtt.store/products/cosmere-rpg-stormlight-speak-the-words)
 Stormlight | Law and Obligation | On what they thought was a routine task to deliver a message, a group of heroes must protect a budding Radiant from a skilled and powerful foe. Can they get to him first, and can they convince him to embrace a difficult truth? | 3 | [Foundry Marketplace](https://www.foundryvtt.store/products/cosmere-rpg-stormlight-law-and-obligation)
-Mistborn | Legacy | A full-campaign adventure that spans both era 1 **and** era 2 of the Mistborn setting. Players control a party in each era, with the choices of era 1's party affecting the events of era 2. | 1–6, 3-9 | [Foundry Marketplace](https://www.foundryvtt.store/products/cosmere-rpg-mistborn-legacy)
+Mistborn | Legacy | A full-campaign adventure that spans both era 1 **and** era 2 of the Mistborn setting. Players control a party in each era, with the choices of era 1's party affecting the events of era 2. | 1–6, 3–9 | [Foundry Marketplace](https://www.foundryvtt.store/products/cosmere-rpg-mistborn-legacy)
