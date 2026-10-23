@@ -3,7 +3,7 @@ A place to report and track bugs, feature requests, etc. for the released module
 ## **Supported Products**
 The follow sections and tables provide a list of Cosmere RPG products which currently have a module implementation.
 ### Core Rulebooks
-|Name|Description|Marketplace|
+|Name|Description|Foundry Marketplace|
 |---|---|---|
 |Handbook|The more player-facing core rules for the Cosmere RPG and the corresponding setting. Contains the majority of the rules needed to play.|[Stormlight](https://www.foundryvtt.store/products/cosmere-rpg-stormlight-handbook), [Mistborn](https://www.foundryvtt.store/products/cosmere-rpg-mistborn-handbook)|
 World Guide|The more GM-oriented core rules for the Cosmere RPG and the corresponding setting. They include tons of additional lore, art, and a huge bestiary of adversaries to face!|[Stormlight](https://www.foundryvtt.store/products/cosmere-rpg-stormlight-worldguide), [Mistborn](https://www.foundryvtt.store/products/cosmere-rpg-mistborn-worldguide)|
