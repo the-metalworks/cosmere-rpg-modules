@@ -7,6 +7,8 @@ Name | Description | Link(s)
 -- | -- | --
 Stormlight Handbook | The more player-facing core rules for the Cosmere RPG and the Stormlight setting and contains the majority of the rules needed to play. | [Foundry Marketplace](https://www.foundryvtt.store/products/cosmere-rpg-stormlight-handbook)
 Stormlight World Guide | The more GM-oriented core rules for the Cosmere RPG and the Stormlight setting. It includes tons of additional lore, art, and a huge bestiary of adversaries to face! | [Foundry Marketplace](https://www.foundryvtt.store/products/cosmere-rpg-stormlight-worldguide)
+Mistborn Handbook | The more player-facing core rules for the Cosmere RPG and the Mistborn setting and contains the majority of the rules needed to play. | [Foundry Marketplace](https://www.foundryvtt.store/products/cosmere-rpg-mistborn-handbook)
+Mistborn World Guide | The more GM-oriented core rules for the Cosmere RPG and the Mistborn setting. It includes tons of additional lore, art, and a huge bestiary of adversaries to face! | [Foundry Marketplace](https://www.foundryvtt.store/products/cosmere-rpg-mistborn-worldguide)
 ### Adventures
 Setting | Name | Description | Levels | Link(s)
 -- | -- | -- | -- | --
