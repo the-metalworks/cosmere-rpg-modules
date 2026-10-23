@@ -24,4 +24,4 @@ Mistborn|Legacy|A full-campaign adventure that spans both era 1 **and** era 2 of
 Stormlight Advanced Adversaries|Placeholder|[Foundry Marketplace](https://www.foundryvtt.store/products/cosmere-rpg-stormlight-advanced-adversaries)
 Stormlight Scenarios|Placeholder|[Foundry Marketplace](https://www.foundryvtt.store/products/cosmere-rpg-stormlight-scenarios)
 Mistborn Scenarios|Placeholder|[Foundry Marketplace](https://www.foundryvtt.store/products/cosmere-rpg-stormlight-scenarios)
-Mistborn Metallic Dice|Placeholder|[Foundry Marketplace](https://www.foundryvtt.store/products/cosmere-rpg-stormlight-scenarios)
+Mistborn Metallic Dice|Eight sets of custom dice skins for use with the Dice So Nice! module. Each set is a different metal and contains skins for d2–d20, d100, fudge die, and plot die!|[Foundry Marketplace](https://www.foundryvtt.store/products/cosmere-rpg-stormlight-scenarios)
